@@ -8,11 +8,11 @@ import { BrowserRouter } from 'react-router'
 import './index.scss'
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+  // <StrictMode>
     <Provider store={store}>
       <BrowserRouter>
         <AppRouter />
       </BrowserRouter>
     </Provider>
-  </StrictMode>,
+  // </StrictMode>,
 )

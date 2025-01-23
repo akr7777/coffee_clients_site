@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router'
 import { Header } from '../header/header'
+import { Footer } from '../footer/footer'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <main>
         <Outlet />
       </main>
+      <Footer />
     </>
   )
 }

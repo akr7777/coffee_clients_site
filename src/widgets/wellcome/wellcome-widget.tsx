@@ -3,12 +3,13 @@ import { TypingEffect } from "../../components/typewriter/typewriter"
 import "./wellcome.scss"
 
 import img from "../../assets/images/coffee-1.webp"
+import clsx from "clsx"
 
 export const WellcomeWidget = () => {
     return (
-        <div className="wellcome-widget-container">
+        <div className={"wellcome-widget-container"}>
             <img alt="" src={img} />
-            <div className="wellcome-text">
+            <div className={clsx("wellcome-text", "chapter")}>
                 <h2>
                     <TypingEffect words={[
                         "Вкусная выпечка",

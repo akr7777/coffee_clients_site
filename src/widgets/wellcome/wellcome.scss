@@ -1,0 +1,20 @@
+.wellcome-widget-container {
+    background-color: red;
+
+    img {
+        width: 100%;
+        max-width: 375px;
+    }
+
+    display: grid;
+    grid-template-columns: 375px 1fr;
+    gap: 30px;
+}
+
+.wellcome-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

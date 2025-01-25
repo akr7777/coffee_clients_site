@@ -1,0 +1,12 @@
+@use "../../assets/styles/common.scss" as *;
+
+.photo-widget-container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 20px;
+
+    img {
+        width: 30%;
+    }
+}

@@ -13,14 +13,16 @@ export const ContactsWidget = () => {
 
         <div className="contact-widget">
             <div>
-                <h3>Кофейня "HOT & COLD"</h3>
+                <h4>Кофейня "HOT & COLD"</h4>
                 <div>
                     г.Москва
                 </div>
             </div>
-            <ContactsMap />
+            {/* <ContactsMap /> */}
         </div>
       </div>
+      <ContactsMap />
+
     </YMaps>
   );
 };

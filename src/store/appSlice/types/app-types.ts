@@ -9,6 +9,7 @@ export type MenuItemType = {
     title: string,
     description: string,
     composition: string,
+    image: string,
 
 }
 export type AppSliceType = {

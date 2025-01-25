@@ -1,16 +1,28 @@
 @use "../../assets/styles/common.scss" as *;
 
 .wellcome-widget-container {
-    background-color: red;
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: space-between;
 
-    img {
-        width: 100%;
-        max-width: 375px;
-    }
+    // img {
+    //     width: 100%;
+    //     max-width: 375px;
+    // }
+
+    background-image: url("../../assets/images/pexels-ifreestock-585750.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    max-width: 100%;
+    min-height: 600px;
 
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-left: 150px;
 }
 
 .wellcome-text {

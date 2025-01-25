@@ -11,7 +11,7 @@ export const ContactsMap = () => {
   }), []);
 
   return (
-    <Map defaultState={mapState} width="400px" height="400px">
+    <Map defaultState={mapState} width="100%" height="400px">
       <Placemark
         geometry={[55.596702, 37.723547]}
         options={{
